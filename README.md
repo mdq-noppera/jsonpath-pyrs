@@ -1,5 +1,5 @@
-#jsonpath_pyrs
-##Python Wrapper for Rust crate jsonpath_lib.
+# jsonpath_pyrs
+## Python Wrapper for Rust crate jsonpath_lib.
 
 This Python package was created because jsonpath_ng doesn't implement full working filters.
 
@@ -39,12 +39,12 @@ value = jp.get_value_from_json_str(json_str, expression)
 print(type(value))
 print(value)
 ```
-###Output
+### Output
 ```
 <class 'str'>
 lord of the rings
 ```
-###Reading from json file
+### Reading from json file
 Values of 'example.json'
 ```
  
