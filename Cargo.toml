@@ -1,12 +1,8 @@
 [package]
-name = "jsonpath_rs"
-version = "0.1.0"
+name = "jsonpath_pyrs"
+version = "0.0.1"
 authors = ["niap0r <zapf1@protonmail.com>"]
 edition = "2018"
-
-[lib]
-name = "jsonpath_rs"
-crate-type = ["cdylib"]
 
 [dependencies]
 serde = {version= "*", features = ["derive"] }
@@ -14,5 +10,9 @@ serde_json = "*"
 jsonpath_lib = "0.2.5"
 
 [dependencies.pyo3]
-version = "0.11.1"
-features = ["extension-module"]
+version = "0.2.7"
+default-features = false
+
+[lib]
+name = "jsonpath_pyrs"
+crate-type = ["cdylib"]
