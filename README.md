@@ -1,7 +1,7 @@
 # jsonpath_pyrs
 ## Python Wrapper for Rust crate jsonpath_lib.
 
-This Python package was created because jsonpath_ng doesn't implement full working filters.
+Uses rust crates serde and jsonpath_lib to provide a Python api with working JSON path filters.
 
 # Install:
 1. From source:
@@ -12,15 +12,14 @@ This Python package was created because jsonpath_ng doesn't implement full worki
 - pip install created .whl file
 
 2. From release:
-- download from releases version for your os
+- download from releases version for your os and python version
 - pip install .whl file
 
 ## Currently compiled for:
-Linux 64 Bit
+Linux 64 Bit - Python 3.7
 
 ## Features:
-- retrieve single strings from file or json string (takes first value, if multiple available)
-- retrieve list of strings from file or json string
+- retrieve list of Python Strings, Integers, Floats, Booleans and Lists of those values (1 level max)
 
 ## NOT implemented:
 - retrieving whole json objects with expression

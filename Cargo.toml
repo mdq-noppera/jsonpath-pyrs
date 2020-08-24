@@ -1,6 +1,6 @@
 [package]
 name = "jsonpath_pyrs"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["niap0r <zapf1@protonmail.com>"]
 edition = "2018"
 
